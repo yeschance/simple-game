@@ -398,7 +398,7 @@ function runGame(plans, Display) {
                     startLevel(n, lives - 1);
                 } else {
                     console.log('Game Over!');
-                    startLevel(0, 3);
+                    startLevel(n, 3);
                 }
             } else if (n < plans.length - 1)
                 startLevel(n + 1);
@@ -548,6 +548,45 @@ var GAME_LEVELS = [
         "        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   x!!!!!!!!!!!!!!!!!!!!!xxx!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
         "                                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         "                                                                                                              "
+    ],
+    [
+        "                                                                                          ",
+        "                                                                                          ",
+        "                                                    o                                     ",
+        "                                                                                          ",
+        "                                           xxxxxxxx                                      ",
+        "                                 o         x       x        o                            ",
+        "                                           x   |   x                                     ",
+        "                         xxxx              xxxxxxx             xxxx                     ",
+        "                        x    x       o       x        o       x    x                    ",
+        "                        x    x               x                x    x                    ",
+        "                @       x    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    x                    ",
+        "               xxx      x                    x                     x                    ",
+        "              x!!!x     xxxxxxxxxxxxxx      xxxxx       xxxxxxxxxxx                    ",
+        "              x!!!x             x                    x       x       x                   ",
+        "              xxxxx             x     o      o       xxxxxxx       xxx                  ",
+        "                    xxxxxxx       xxxxxxx             x                                ",
+        "                        o                      x     x       x     x                    ",
+        "                                               x     x       x     x                    ",
+        "               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx     xxxxxxxx     xxxxxxxxxxxxxx      "
+    ],
+    [
+        "                                                                                      ",
+        "                                                                                      ",
+        "                                                                                      ",
+        "                                                                                      ",
+        "                     o         o         o                                           ",
+        "             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                              ",
+        "             x                      x                     x             ",
+        "             x                      x                     x             ",
+        "             x          @           x   x           @     x             ",
+        "             x               o      x   x                 x             ",
+        "             x   xxxxxxxxxxxxxx   xxxxxxx   xxxxxxxxxxxxxx          x              ",
+        "             x   x           x   x     x   x           x          x              ",
+        "             x   x   o   o   x   x  o  x   x   o   o   x          x              ",
+        "             x   xxxxxxxxxxxxx   xxxxxxx   xxxxxxxxxxxxx          x              ",
+        "             x                      x                 x          x          x    ",
+        "             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx          "
     ]
 ];
 runGame(GAME_LEVELS, DOMDisplay);
