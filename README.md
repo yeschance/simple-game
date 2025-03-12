@@ -8,7 +8,6 @@ This is a simple platformer game built with JavaScript, HTML, and CSS. The playe
 - [How to Play](#how-to-play)
 - [Game Levels](#game-levels)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -39,7 +38,3 @@ The game includes multiple levels with increasing difficulty. Each level is defi
 ## Contributing
 
 Contributions are welcome! If you have any ideas or improvements, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
